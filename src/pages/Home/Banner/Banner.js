@@ -5,7 +5,7 @@ import PrimaryButton from '../../../components/PrimaryButton/PrimaryButton';
 
 const Banner = () => {
     return (
-        <section className="hero bg-no-repeat lg:bg-left bg-contain lg:flex lg:items-center lg:justify-center px-5" style={{ backgroundImage: `url(${backgroundPhoto})` }}>
+        <section className="hero bg-no-repeat bg-cover lg:flex lg:items-center lg:justify-center px-5" style={{ backgroundImage: `url(${backgroundPhoto})` }}>
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <img src={chair} alt='' className="lg:w-1/2 rounded-lg shadow-2xl" />
                 <div>
