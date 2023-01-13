@@ -5,7 +5,7 @@ import PrimaryButton from '../../../components/PrimaryButton/PrimaryButton';
 
 const MakeAppointment = () => {
     return (
-        <div className='mt-20 lg:mt-56 bg-no-repeat bg-contain' style={{ background: `url(${appointment})` }}>
+        <section className='mt-20 lg:mt-56 bg-no-repeat bg-contain' style={{ background: `url(${appointment})` }}>
             <div className="flex items-center">
                 <img src={doctor} alt='' className="hidden lg:flex w-1/2 -mt-32" />
                 <div className='p-10 text-white'>
@@ -15,7 +15,7 @@ const MakeAppointment = () => {
                     <PrimaryButton>Get Started</PrimaryButton>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

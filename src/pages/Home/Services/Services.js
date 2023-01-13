@@ -28,7 +28,7 @@ const Services = () => {
     ]
 
     return (
-        <div className='mt-20'>
+        <section className='mt-20 mx-5'>
             <h3 className='text-xl text-secondary font-bold text-center'>OUR SERVICES</h3>
             <h1 className='text-4xl text-center'>Services We Provide</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
@@ -39,7 +39,7 @@ const Services = () => {
                     ></ServiceCard>)
                 }
             </div>
-        </div>
+        </section>
     );
 };
 
