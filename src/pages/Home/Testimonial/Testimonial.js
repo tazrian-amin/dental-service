@@ -33,14 +33,14 @@ const Testimonial = () => {
 
     return (
         <section>
-            <div className='mt-20 mx-10 md:mx-5 flex flex-col-reverse md:flex-row items-start md:items-center justify-between'>
+            <div className='mt-20 mx-10 flex flex-col-reverse md:flex-row items-start md:items-center justify-between'>
                 <div>
                     <h3 className='text-xl text-secondary font-bold mt-5 md:mt-0'>Testimonial</h3>
                     <h1 className="text-4xl font-semibold">What Our Patients Says</h1>
                 </div>
                 <img src={quote} alt="" className='w-1/5' />
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 md:mt-20'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 md:mt-20 mx-5'>
                 {
                     testimonyData.map(testimony => <TestimonyCard
                         key={testimony.id}

@@ -5,7 +5,7 @@ const TestimonyCard = ({ testimony }) => {
     const { comment, photo, name, location } = testimony;
 
     return (
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card bg-base-100 shadow-xl">
             <div className="card-body">
                 <p>{comment}</p>
                 <div className='flex items-center justify-start mt-5'>
